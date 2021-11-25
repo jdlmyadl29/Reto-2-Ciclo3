@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/json" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/funcionesCliente.js"></script>
+    <title>USA - Grupo G16 - Ciclo03</title>
+</head>
+<body>
+	<h3><a href="index.html">Pagina principal</a></h3>
+	<h1>Clientes</h1>
+	<h3>Consultar por ID</h3>
+	<input type="number" id="idCliente" placeholder="id">
+	<button onclick="buscarCliente()">Buscar</button>
+	<h3>Informacion de los Clientes</h3>
+	<div id="resultado"></div>
+   	<button onclick="consultarClientes()">Ver Clientes</button>
+	<div>
+		<input type="number" id="id" placeholder="id">
+		<input type="text" id="name" placeholder="Nombre">
+		<input type="text" id="email" placeholder="Email">
+		<input type="number" id="age" placeholder="Edad">
+	</div>
+	
+	<button onclick="guardarCliente()">Guardar</button>
+	<button onclick="editarCliente()">Actualizar</button>
+	<button onclick="borrarCliente()">Borrar</button>
+	
+</body>
+</html>
+
+

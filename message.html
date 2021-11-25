@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/json" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/funcionesMensaje.js"></script>
+    <title>USA - Grupo G16 - Ciclo03</title>
+</head>
+<body>
+	<h3><a href="index.html">Pagina principal</a></h3>
+	<h1>Bandeja de entrada</h1>
+	<div id="resultado"></div>
+   	<button onclick="consultarMensajes()">Ver Todos los mensajes</button>
+	<div>
+		<input type="number" id="id" placeholder="id">
+		<input type="text" id="messageText" placeholder="Mensaje" size="100" maxlength="500">
+	</div>
+	
+	<button onclick="guardarMensaje()">Guardar</button>
+	<button onclick="editarMensaje()">Actualizar</button>
+	<button onclick="borrarMensaje()">Borrar</button>
+	
+</body>
+</html>

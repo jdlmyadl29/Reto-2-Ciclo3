@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/json" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/funcionesSalon.js"></script>
+    <title>USA - Grupo G16 - Ciclo03</title>
+</head>
+<body>
+    <h3><a href="index.html">Pagina principal</a></h3>
+	<h1>Salones</h1>
+	<h3>Consultar por ID</h3>
+	<input type="number" id="idSalon" placeholder="id">
+	<button onclick="buscarSalon()">Buscar Salon</button>
+	<h3>Informacion de los salones</h3>
+	<div id="resultado"></div>
+   	<button onclick="consultarSalones()">Ver Salones</button>
+	<div>
+		<input type="number" id="id" placeholder="id">
+		<input type="text" id="owner" placeholder="Propietario">
+		<input type="number" id="capacity" placeholder="Capacidad">
+		<input type="number" id="category_id" placeholder="Categoria">
+        <input type="text" id="name" placeholder="Nombre">
+	</div>
+	
+	<button onclick="guardarSalon()">Guardar</button>
+	<button onclick="editarSalon()">Actualizar</button>
+	<button onclick="borrarSalon()">Borrar</button>
+	
+</body>
+</html>
